@@ -1,0 +1,82 @@
+aid: ixl
+url: https://raw.githubusercontent.com/api-evangelist/ixl/refs/heads/main/apis.yml
+name: IXL Learning
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Education
+  - K-12
+  - Math
+  - Language Arts
+  - Science
+  - Social Studies
+  - Spanish
+  - Diagnostic
+  - Rostering
+  - SSO
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+description: >-
+  IXL Learning is a K-12 personalized practice platform with 17,000+ skills across Math,
+  Language Arts, Science, Social Studies, and Spanish, plus the IXL Real-Time Diagnostic
+  and skill recommendations. IXL is sold primarily as a SaaS subscription to families,
+  teachers, schools, and districts. Its integration surface is school-rostering and SSO,
+  not a public developer API: IXL supports Clever (SSO + rostering), ClassLink (SSO +
+  OneRoster auto-rostering), OneRoster CSV/REST, LTI, Google Classroom, and SAML SSO for
+  district deployments. There is no public REST API portal, no published OpenAPI, and no
+  partner developer program.
+apis: []
+common:
+  - type: Website
+    url: https://www.ixl.com
+  - type: ForFamilies
+    url: https://www.ixl.com/membership/family
+  - type: ForTeachers
+    url: https://www.ixl.com/membership/teachers
+  - type: ForSchools
+    url: https://www.ixl.com/membership/schools
+  - type: ForAdministrators
+    url: https://www.ixl.com/membership/administrators
+  - type: TechIntegration
+    url: https://www.ixl.com/membership/administrators/tech-integration
+  - type: Diagnostic
+    url: https://www.ixl.com/inspiration/diagnostic
+  - type: SkillPlans
+    url: https://www.ixl.com/standards
+  - type: Pricing
+    url: https://www.ixl.com/membership/family/pricing
+  - type: HelpCenter
+    url: https://www.ixl.com/help-center
+  - type: ClassLinkRostering
+    url: https://www.ixl.com/materials/us/integration/Auto-rostering_with_ClassLink_on_IXL.pdf
+  - type: PrivacyPolicy
+    url: https://www.ixl.com/privacypolicy
+  - type: TermsOfService
+    url: https://www.ixl.com/termsofservice
+  - type: AboutUs
+    url: https://www.ixl.com/company
+  - type: Careers
+    url: https://www.ixl.com/company/careers
+  - type: Blog
+    url: https://blog.ixl.com
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/ixl-learning
+  - type: Twitter
+    url: https://x.com/ixllearning
+  - type: Facebook
+    url: https://www.facebook.com/IXLlearning
+  - type: YouTube
+    url: https://www.youtube.com/user/ixllearning
+  - type: Support
+    url: https://www.ixl.com/help-center/contact
+integrations:
+  - name: Clever
+  - name: ClassLink
+  - name: OneRoster
+  - name: LTI
+  - name: Google Classroom
+  - name: SAML SSO
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
