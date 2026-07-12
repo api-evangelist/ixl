@@ -28,6 +28,10 @@ description: >-
   partner developer program.
 apis: []
 common:
+  - type: VulnerabilityDisclosure
+    url: security/ixl-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/ixl-domain-security.yml
   - type: Website
     url: https://www.ixl.com
   - type: ForFamilies
