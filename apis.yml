@@ -37,6 +37,7 @@ tags:
 - Rostering
 - SSO
 - Identity Federation
+- Assessment
 tags_raw:
 - Education
 - K-12
@@ -49,6 +50,7 @@ tags_raw:
 - Rostering
 - SSO
 - Identity Federation
+- Assessment
 created: '2026-05-23'
 modified: '2026-09-16'
 specificationVersion: '0.23'
