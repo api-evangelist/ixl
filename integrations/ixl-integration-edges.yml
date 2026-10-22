@@ -1,4 +1,40 @@
 edges:
+- partner_name: Clever (clever-app-gallery)
+  partner: clever
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: clever-app-gallery
+  evidence: https://clever.com/app-gallery
+  mirror_of: clever/integrations/clever-integration-edges.yml
+  apps: []
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: math, science, social_studies, reading, language
+  features:
+  - instant_login
+  - secure_sync
+- partner_name: Google Workspace (own)
+  partner: google-workspace
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://workspace.google.com/marketplace/app/ixl_learning/850510713245
+  mirror_of: google-workspace/integrations/google-workspace-integration-edges.yml
+  apps:
+  - IXL Learning
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Google Workspace app
 - partner_name: 1EdTech
   partner: null
   type: contract
@@ -34,26 +70,7 @@ edges:
       lapsed: false
       url: https://site.imsglobal.org/certifications/ixl-learning/ixl-learning/v10-0
     detected_by: sweep-edtech.py
-    detected: '2026-10-14'
-- partner_name: Clever (clever-app-gallery)
-  partner: clever
-  partner_match: mirror
-  mirror_match: domain
-  type: marketplace
-  relationship: platform-app
-  direction: third-party
-  channel: partner-built
-  marketplace: clever-app-gallery
-  evidence: https://clever.com/app-gallery
-  mirror_of: clever/integrations/clever-integration-edges.yml
-  apps: []
-  listing_count: 1
-  detected: '2026-10-14'
-  detected_by: mirror-platform-listings.py
-  category: math, science, social_studies, reading, language
-  features:
-  - instant_login
-  - secure_sync
+    detected: '2026-10-19'
 - partner_name: GovRAMP
   partner: null
   partner_match: register
@@ -83,23 +100,6 @@ edges:
     detected: '2026-10-15'
   detected_by: sweep-gov-cloud.py
   first_seen: '2026-10-15'
-- partner_name: Google Workspace (own)
-  partner: google-workspace
-  partner_match: mirror
-  mirror_match: domain
-  type: marketplace
-  relationship: platform-app
-  direction: third-party
-  channel: partner-built
-  marketplace: own
-  evidence: https://workspace.google.com/marketplace/app/ixl_learning/850510713245
-  mirror_of: google-workspace/integrations/google-workspace-integration-edges.yml
-  apps:
-  - IXL Learning
-  listing_count: 1
-  detected: '2026-10-18'
-  detected_by: mirror-platform-listings.py
-  category: Google Workspace app
 generated: '2026-10-14'
 method: searched
 checked:
